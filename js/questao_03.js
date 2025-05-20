@@ -1,19 +1,16 @@
-let nome1 = "João da Silva";
-let nota1_1 = 7;
-let nota1_2 = 8.5;
-let mult1 = nota1_1 * 0.6;
-let mult2 = nota1_2 * 0.4;
-let soma1 = mult1 + mult2;
-alert(`Aluno: ${nome1}\nNota 1: ${nota1_1}\nNota 2: ${nota1_2}\nMédia: ${soma1}`);
+const names = [];
+const firstGrades = [];
+const secondGrades = [];
+const finalGrades = [];
 
-let nome2 = "Maria Martins";
-let nota2_1 = 6;
-let nota2_2 = 7;
-let soma2 = (nota2_1 * 0.6) + (nota2_2 * 0.4);
-alert(`Aluno: ${nome2}\nNota 1: ${nota2_1}\nNota 2: ${nota2_2}\nMédia: ${soma2}`);
+for(i = 0; i < 3; i++) {
+  names[i] = prompt("Nome: ");
+  firstGrades[i] =  prompt("Primeira nota: ");
+  secondGrades[i] = prompt("Segunda nota: ");
+  finalGrades[i] = (+firstGrades[i] * 0.6) + (+secondGrades[i] * 0.4);
+}
 
-let nome3 = "Carlos Souza";
-let nota3_1 = 8;
-let nota3_2 = 5;
-let soma3 = (nota3_1 * 0.6) + (nota3_2 * 0.4);
-alert(`Aluno: ${nome3}\nNota 1: ${nota3_1}\nNota 2: ${nota3_2}\nMédia: ${soma3}`);
+for(i = 0; i < 3; i++) {
+  alert("Aluno: " + names[i] + "\nNota 1: " + firstGrades[i] + " Nota 2: " + secondGrades[i])
+  alert("Nota final: " + finalGrades[i])
+}
