@@ -28,6 +28,6 @@ class Aluno {
   ];
   
   alunos.slice(0, 3).forEach(aluno => {
-    alert(`Nome: ${aluno.nomeCompleto()()}\nMédia: ${aluno.media()}\nSituação: ${aluno.situacao()}`);
+    alert(`Nome: ${aluno.nomeCompleto()()}\nMédia: ${aluno.media()}\nSituação: ${aluno.situacao()}`)
   });
   
