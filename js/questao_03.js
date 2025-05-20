@@ -4,7 +4,7 @@ let nota1_2 = 8.5;
 let mult1 = nota1_1 * 0.6;
 let mult2 = nota1_2 * 0.4;
 let soma1 = mult1 + mult2;
-alert(`Aluno: ${nome1}\nNota 1: ${nota1_1}\nNota 2: ${nota1_2}\nMédia: ${soma1}`)
+alert(`Aluno: ${nome1}\nNota 1: ${nota1_1}\nNota 2: ${nota1_2}\nMédia: ${soma1}`);
 
 let nome2 = "Maria Martins";
 let nota2_1 = 6;
