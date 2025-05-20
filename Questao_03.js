@@ -6,7 +6,7 @@ let mult2 = nota1_2 * 0.4;
 let soma1 = mult1 + mult2;
 alert(`Aluno: ${nome1}\nNota 1: ${nota1_1}\nNota 2: ${nota1_2}\nMédia: ${soma1}`);
 
-let nome2 = "Ana Costa";
+let nome2 = "Maria Martins";
 let nota2_1 = 6;
 let nota2_2 = 7;
 let soma2 = (nota2_1 * 0.6) + (nota2_2 * 0.4);
