@@ -1,1 +1,1 @@
-alert("Alerta: Questão 2")
+alert("Alerta: Questão 02")
