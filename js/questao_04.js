@@ -3,7 +3,7 @@ class Aluno {
     this.primeiroNome = primeiroNome;
     this.segundoNome = segundoNome;
     this.primeiraNota = primeiraNota;
-    this.segundaNota = segundaNota;
+    this.segundaNota = segundaNota;a
   }
 
   nomeCompleto() {
